@@ -27,11 +27,29 @@ class Clock extends React.Component {
     let hours = this.state.time.getHours();
     let minutes = this.state.time.getMinutes();
     let seconds = this.state.time.getSeconds();
+    let day = this.state.time.getDay();
+    let month = this.state.time.getMonth();
+    let date = this.state.time.getDate();
+    let year = this.state.time.getFullYear();
+    let weekDays = [
+      'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun' 
+    ];
+    let months = [
+      'January', 'February', 'March', 'April', 'May', 'June',
+      'July', 'August', 'September', 'October', 'November', 'December'  
+    ]
 
     return (
-      <div>
-        <h1>Clock</h1>
-        <h2>{hours}:{minutes}:{seconds}</h2>
+      <div className="clock">
+        <div className="headers">
+          <h2>Time:</h2>
+          <h2>Date:</h2>
+        </div>
+
+        <div className="times">
+          <h2>{hours}:{minutes}:{seconds}</h2>
+          <h2>{weekDays[day]}, {months[month]} {date}, {year}</h2>
+        </div>
       </div>
     );
   }
