@@ -13,3 +13,38 @@
   margin: 0 auto;
   font-family: 'Cinzel';
 }
+
+div.tabs-widget {
+  margin: 0 auto;
+  width: 50%;
+  background-color: aquamarine;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+ul.tab-header {
+  padding: 0;
+  margin-top: 0px;
+  display: flex;
+}
+
+ul.tab-header h1 {
+  margin-right: 10px;
+  border: 0.5px solid blue;
+  border-radius: 2px;
+  padding: 3px;
+  font-family: 20px;
+}
+
+ul.tab-header h1:hover {
+  background-color: navy;
+  color: white;
+}
+
+ul.tab-header h1:mouseover {
+  cursor: pointer;
+}
+
+article.tab-content {
+  font-family: 'Cinzel';
+}
