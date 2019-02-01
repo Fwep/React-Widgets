@@ -1,0 +1,15 @@
+.clock {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+  background-color: royalblue;
+  border-radius: 10px;
+  font-family: 'Cinzel';
+}
+
+#clock {
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Cinzel';
+}
