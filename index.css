@@ -48,3 +48,39 @@ ul.tab-header h1:mouseover {
 article.tab-content {
   font-family: 'Cinzel';
 }
+
+div.weather {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+  background-color: deepskyblue;
+  border-radius: 4px;
+}
+
+div.weather h1, div.weather h2 {
+  font-family: 'Cinzel'
+}
+
+.autocomplete {
+  background-color: darkslateblue;
+  width: 45%;
+  margin: 0 auto;
+  height: 480px;
+}
+
+.autocomplete li {
+  list-style-type: none;
+  color: seashell;
+}
+
+input {
+  width: 100%;
+}
+
+.autocomplete ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
