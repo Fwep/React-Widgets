@@ -32,7 +32,7 @@ class Clock extends React.Component {
     let date = this.state.time.getDate();
     let year = this.state.time.getFullYear();
     let weekDays = [
-      'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun' 
+      'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'
     ];
     let months = [
       'January', 'February', 'March', 'April', 'May', 'June',
